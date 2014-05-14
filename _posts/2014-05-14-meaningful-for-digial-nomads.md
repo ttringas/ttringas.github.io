@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 # Doing meaningful work as a digital nomad
