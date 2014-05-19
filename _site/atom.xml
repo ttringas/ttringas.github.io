@@ -4,7 +4,7 @@
  <title>Tyler Tringas</title>
  <link href="http://www.tylertringas.com/atom.xml" rel="self"/>
  <link href="http://www.tylertringas.com/"/>
- <updated>2014-05-14T18:11:02+08:00</updated>
+ <updated>2014-05-19T18:06:47+08:00</updated>
  <id>http://www.tylertringas.com</id>
  <author>
    <name>Tyler Tringas</name>
@@ -13,13 +13,53 @@
 
  
  <entry>
+   <title>Shopify Workflow With Github</title>
+   <link href="http://www.tylertringas.com/2014/05/19/shopify-workflow-with-github/"/>
+   <updated>2014-05-19T00:00:00+08:00</updated>
+   <id>http://www.tylertringas.com/2014/05/19/shopify-workflow-with-github</id>
+   <content type="html">&lt;h2&gt;Shopify Development Workflow with Github&lt;/h2&gt;
+
+&lt;p&gt;Recently had to write up my Shopify development workflow. I&amp;#39;m using Github and Shopify Theme Gem and it seems to work pretty well. Love to hear any feedback of course.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Pull latest code base from github&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Create a new development branch with the pattern [version]-[name]. As best as possible use &lt;a href=&quot;http://semver.org/&quot;&gt;semantic versioning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;git checkout -b 3.2.0-new-feature
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Head to the Shopify Admin &amp;gt; Themes. Duplicate a theme. If you created your branch from the master branch, then duplicate the live theme, if your development branch works of an existing unpublished development theme, then duplicate that theme.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Rename the duplicated theme the same as your branch name (i.e. 3.2.0-new-feature)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Install the &lt;a href=&quot;https://github.com/Shopify/shopify_theme&quot;&gt;Shopify Theme Gem&lt;/a&gt; and follow the installation process. Example:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;gem install shopify_theme
+theme configure [api_key] [password] [shop_url]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Note: this only needs to be done once&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Once this is installed, head the config.yml file in your development branch. You need to change the theme&lt;em&gt;id to your new development theme&amp;#39;s ID. Get the ID from the URL in the theme editor. Set theme&lt;/em&gt;id to this new ID and commit changes.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Now you can use the Shopify Theme Gem&amp;#39;s functions to sync your local version of the theme with the unpublished development theme you created (from the duplicate). Open console, cd to the directory and type:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;theme watch
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The gem will now watch for saved files and automatically sync those files with your Shopify account. &lt;/p&gt;
+
+&lt;p&gt;Note: I recommend doing a test like adding a comment to confirm you are syncing changes with the development theme and NOT the live published theme.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To see the effects of your changes just go to the theme manager and Preview the theme in the browser.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When you&amp;#39;re finished either push a new branch to Github, or merge your changes into master and publish your development theme. The master branch should always match the published theme and development branches should always have an unpublished theme with the same name.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Meaningful Work For Digital Nomads</title>
    <link href="http://www.tylertringas.com/2014/05/14/meaningful-work-for-digital-nomads/"/>
    <updated>2014-05-14T00:00:00+08:00</updated>
    <id>http://www.tylertringas.com/2014/05/14/meaningful-work-for-digital-nomads</id>
-   <content type="html">&lt;h1&gt;Doing meaningful work as a digital nomad&lt;/h1&gt;
-
-&lt;p&gt;I&amp;#39;m digital nomad-ing again. Put all my stuff in storage. Moved out of my Brooklyn apartment. Threw the macbook in the backpack and hit the road. A month in Thailand, much of it in Tonsai working on my rock climbing. Then a month in Bali, getting in to yoga for real for the first time. &lt;/p&gt;
+   <content type="html">&lt;p&gt;I&amp;#39;m digital nomad-ing again. Put all my stuff in storage. Moved out of my Brooklyn apartment. Threw the macbook in the backpack and hit the road. A month in Thailand, much of it in Tonsai working on my rock climbing. Then a month in Bali, getting in to yoga for real for the first time. &lt;/p&gt;
 
 &lt;p&gt;I&amp;#39;m definitely working fewer hours on this schedule but I am spending a lot of time working on Storemapper and freelance web development. &lt;/p&gt;
 

@@ -1,8 +1,7 @@
 ---
 published: true
+layout: post
 ---
-
-## Shopify Development Workflow with Github
 
 Recently had to write up my Shopify development workflow. I'm using Github and Shopify Theme Gem and it seems to work pretty well. Love to hear any feedback of course.
 

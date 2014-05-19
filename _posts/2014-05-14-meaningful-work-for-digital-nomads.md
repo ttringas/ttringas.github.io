@@ -1,8 +1,7 @@
 ---
 published: true
+layout: post
 ---
-
-# Doing meaningful work as a digital nomad
 
 I'm digital nomad-ing again. Put all my stuff in storage. Moved out of my Brooklyn apartment. Threw the macbook in the backpack and hit the road. A month in Thailand, much of it in Tonsai working on my rock climbing. Then a month in Bali, getting in to yoga for real for the first time. 
 
@@ -62,9 +61,6 @@ I would never be able to consistently carve out a small portion of my schedule a
 
 Researching and thinking about this post I thought it would be really crushing to rattle off a list of people who have made long-term travel a part of their lives AND built a meaningful career. But, I honestly couldn't come up with a great list. Part of that is that I really think the toolkit has only been fully developed. Tools for web collaboration, VOIP, screencasting, collaborative writing, payment processing are all just now getting developed enough to be a truly reliable foundation for remote work. Large parts of the world have only in the last few years laid the infrastructure for fast ubiquitous wifi. So hopefully I'm at the tip of the spear.
 
-But lots of questions remain:
-* Can I sustain and cultivate relationships and create new ones?
-* Will travel remain a priority for me?
-* Is lifestyle design compatible with big projects that require lots of people?
+But lots of questions remain.
 
 I promise more updates as they come in… 
