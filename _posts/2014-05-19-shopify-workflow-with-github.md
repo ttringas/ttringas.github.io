@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Shopify Development Workflow with Github
