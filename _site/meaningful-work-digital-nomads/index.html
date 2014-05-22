@@ -10,7 +10,7 @@
 
   <title>
     
-      Tyler Tringas &middot; A Blog for Humans
+      Meaningful Work For Digital Nomads &middot; Tyler Tringas
     
   </title>
 
@@ -42,7 +42,7 @@
     </div>
 
     <ul class="sidebar-nav">
-      <li class="sidebar-nav-item active">
+      <li class="sidebar-nav-item">
         <a href="/">Home</a>
       </li>
 
@@ -86,62 +86,10 @@
 
 
     <div class="content container">
-      <div class="posts">
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2014/05/19/shopify-workflow-with-github/">
-        Shopify Workflow With Github
-      </a>
-    </h1>
-
-    <span class="post-date">19 May 2014</span>
-
-    <p>Recently had to write up my Shopify development workflow. I&#39;m using Github and Shopify Theme Gem and it seems to work pretty well. Love to hear any feedback of course.</p>
-
-<ul>
-<li><p>Pull latest code base from github</p></li>
-<li><p>Create a new development branch with the pattern [version]-[name]. As best as possible use <a href="http://semver.org/">semantic versioning</a></p></li>
-</ul>
-<div class="highlight"><pre><code class="language-text" data-lang="text">git checkout -b 3.2.0-new-feature
-</code></pre></div>
-<ul>
-<li><p>Head to the Shopify Admin &gt; Themes. Duplicate a theme. If you created your branch from the master branch, then duplicate the live theme, if your development branch works of an existing unpublished development theme, then duplicate that theme.</p></li>
-<li><p>Rename the duplicated theme the same as your branch name (i.e. 3.2.0-new-feature)</p></li>
-<li><p>Install the <a href="https://github.com/Shopify/shopify_theme">Shopify Theme Gem</a> and follow the installation process. Example:</p></li>
-</ul>
-<div class="highlight"><pre><code class="language-text" data-lang="text">gem install shopify_theme
-theme configure [api_key] [password] [shop_url]
-</code></pre></div>
-<p>Note: this only needs to be done once</p>
-
-<ul>
-<li><p>Once this is installed, head the config.yml file in your development branch. You need to change the theme<em>id to your new development theme&#39;s ID. Get the ID from the URL in the theme editor. Set theme</em>id to this new ID and commit changes.</p></li>
-<li><p>Now you can use the Shopify Theme Gem&#39;s functions to sync your local version of the theme with the unpublished development theme you created (from the duplicate). Open console, cd to the directory and type:</p></li>
-</ul>
-<div class="highlight"><pre><code class="language-text" data-lang="text">theme watch
-</code></pre></div>
-<p>The gem will now watch for saved files and automatically sync those files with your Shopify account. </p>
-
-<p>Note: I recommend doing a test like adding a comment to confirm you are syncing changes with the development theme and NOT the live published theme.</p>
-
-<ul>
-<li><p>To see the effects of your changes just go to the theme manager and Preview the theme in the browser.</p></li>
-<li><p>When you&#39;re finished either push a new branch to Github, or merge your changes into master and publish your development theme. The master branch should always match the published theme and development branches should always have an unpublished theme with the same name.</p></li>
-</ul>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/meaningful-work-digital-nomads">
-        Meaningful Work For Digital Nomads
-      </a>
-    </h1>
-
-    <span class="post-date">14 May 2014</span>
-
-    <p>I&#39;m digital nomad-ing again. Put all my stuff in storage. Moved out of my Brooklyn apartment. Threw the macbook in the backpack and hit the road. A month in Thailand, much of it in Tonsai working on my rock climbing. Then a month in Bali, getting in to yoga for real for the first time. </p>
+      <div class="post">
+  <h1 class="post-title">Meaningful Work For Digital Nomads</h1>
+  <span class="post-date">14 May 2014</span>
+  <p>I&#39;m digital nomad-ing again. Put all my stuff in storage. Moved out of my Brooklyn apartment. Threw the macbook in the backpack and hit the road. A month in Thailand, much of it in Tonsai working on my rock climbing. Then a month in Bali, getting in to yoga for real for the first time. </p>
 
 <p>I&#39;m definitely working fewer hours on this schedule but I am spending a lot of time working on Storemapper and freelance web development. </p>
 
@@ -206,18 +154,24 @@ Totally shunning the traditional life path, not getting married, not getting a r
 
 <p>If you liked this post, you can <a href="https://twitter.com/intent/tweet?url=http://www.tylertringas.com/meaningful-work-digital-nomads&text=Meaningful Work For Digital Nomads&via=tylertringas"    target="_blank">  share it with your followers</a> or <a href="https://twitter.com/tylertringas">  follow me on Twitter</a>!</p>
 
-  </div>
-  
 </div>
 
-<div class="pagination">
-  
-    <span class="pagination-item older">Older</span>
-  
-  
-    <span class="pagination-item newer">Newer</span>
-  
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2014/05/19/shopify-workflow-with-github/">
+            Shopify Workflow With Github
+            <small>19 May 2014</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
 </div>
+
     </div>
 
   </body>

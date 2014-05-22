@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+permalink: meaningful-work-digital-nomads
 ---
 
 I'm digital nomad-ing again. Put all my stuff in storage. Moved out of my Brooklyn apartment. Threw the macbook in the backpack and hit the road. A month in Thailand, much of it in Tonsai working on my rock climbing. Then a month in Bali, getting in to yoga for real for the first time. 
