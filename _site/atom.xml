@@ -4,7 +4,7 @@
  <title>Tyler Tringas</title>
  <link href="http://www.tylertringas.com/atom.xml" rel="self"/>
  <link href="http://www.tylertringas.com/"/>
- <updated>2014-05-22T14:13:04+08:00</updated>
+ <updated>2014-05-22T14:15:22+08:00</updated>
  <id>http://www.tylertringas.com</id>
  <author>
    <name>Tyler Tringas</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Shopify Workflow With Github</title>
-   <link href="http://www.tylertringas.com/2014/05/19/shopify-workflow-with-github/"/>
+   <link href="http://www.tylertringas.com/shopify-github-workflow"/>
    <updated>2014-05-19T00:00:00+08:00</updated>
-   <id>http://www.tylertringas.com/2014/05/19/shopify-workflow-with-github</id>
+   <id>http://www.tylertringas.com/shopify-workflow-with-github</id>
    <content type="html">&lt;p&gt;Recently had to write up my Shopify development workflow. I&amp;#39;m using Github and Shopify Theme Gem and it seems to work pretty well. Love to hear any feedback of course.&lt;/p&gt;
 
 &lt;ul&gt;
