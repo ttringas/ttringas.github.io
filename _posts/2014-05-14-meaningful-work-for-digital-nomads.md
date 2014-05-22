@@ -64,3 +64,5 @@ Researching and thinking about this post I thought it would be really crushing t
 But lots of questions remain.
 
 I promise more updates as they come in… 
+
+{% include twitter_plug.html %}
