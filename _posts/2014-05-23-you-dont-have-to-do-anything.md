@@ -68,7 +68,7 @@ How does your day look like now? An extra hour in there to sit down with a book?
 
 Maybe it looks radically different. Isn't that interesting.
 
-Sometimes it's fun to start this part from the other end. Pick things you've always wanted to do, things you've wanted to change or add to your life and drop onto the caves **first** then fill in the rest with whatever you got time for an leave the rest off.
+Sometimes it's fun to start this part from the other end. Pick things you've always wanted to do, things you've wanted to change or add to your life and drop onto the canvas **first** then fill in the rest with whatever you got time for an leave the rest off.
 
 I'm really curious to know. What did you find out from this little experiment?
 
