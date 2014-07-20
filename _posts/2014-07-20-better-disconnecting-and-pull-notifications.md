@@ -1,4 +1,7 @@
-# Better Disconnecting and Pull Notifications
+---
+published: true
+layout: post
+---
 
 Reading the excellent, [Hidden in Plain Sight](http://www.amazon.com/gp/product/B008B0ULDW/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008B0ULDW&linkCode=as2&tag=tyletrin-20&linkId=GOIIMPLJLTNRWCXS) by Jan Chipchase. This paragraph in particular caught my attention.
 
